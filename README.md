@@ -67,10 +67,11 @@ tsc -w
 
 ## 📝 Resumen
 
-| Tipo    | Ejemplo                                 |
-| :------ | :-------------------------------------- |
-| Boolean | `const booleano: boolean = true`        |
-| Number  | `const numero: number = 10`             |
-| String  | `const cadenaDeTexto: string = 'Valor'` |
-| Boolean | `const booleano: boolean = true`        |
-| Any     | `const booleano: boolean = true`        |
+| Tipo    | Ejemplo                                                |
+| :------ | :----------------------------------------------------- |
+| Boolean | `let booleano: boolean = true`                         |
+| Number  | `let numero: number = 10`                              |
+| String  | `let cadenaDeTexto: string = 'Valor'`                  |
+| Boolean | `let booleano: boolean = true`                         |
+| Any     | `let anyImplicito;` or `let cualquierCosa: any = 654 ` |
+| Array   | `let frutas: string[] = ['Manzana', 'Pera', 'Melón']`  |
