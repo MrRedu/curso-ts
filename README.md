@@ -77,3 +77,4 @@ tsc -w
 | Array   | `let frutas: string[] = ['Manzana', 'Pera', 'Melón']`  |
 | Tuples  | `let normalTupla: [string, number] = ['Texto', 125]`   |
 | Enum    | `enum AudioLevel { min, medium, max }`                 |
+| Void    | `const doNothing = (): void => {  return  }`           |
