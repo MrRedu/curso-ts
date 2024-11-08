@@ -67,14 +67,15 @@ tsc -w
 
 ## 📝 Resumen
 
-| Tipo    | Ejemplo                                                |
-| :------ | :----------------------------------------------------- |
-| Boolean | `let booleano: boolean = true`                         |
-| Number  | `let numero: number = 10`                              |
-| String  | `let cadenaDeTexto: string = 'Valor'`                  |
-| Boolean | `let booleano: boolean = true`                         |
-| Any     | `let anyImplicito;` or `let cualquierCosa: any = 654 ` |
-| Array   | `let frutas: string[] = ['Manzana', 'Pera', 'Melón']`  |
-| Tuples  | `let normalTupla: [string, number] = ['Texto', 125]`   |
-| Enum    | `enum AudioLevel { min, medium, max }`                 |
-| Void    | `const doNothing = (): void => {  return  }`           |
+| Tipo    | Ejemplo                                                          |
+| :------ | :--------------------------------------------------------------- |
+| Boolean | `let booleano: boolean = true`                                   |
+| Number  | `let numero: number = 10`                                        |
+| String  | `let cadenaDeTexto: string = 'Valor'`                            |
+| Boolean | `let booleano: boolean = true`                                   |
+| Any     | `let anyImplicito;` or `let cualquierCosa: any = 654 `           |
+| Array   | `let frutas: string[] = ['Manzana', 'Pera', 'Melón']`            |
+| Tuples  | `let normalTupla: [string, number] = ['Texto', 125]`             |
+| Enum    | `enum AudioLevel { min, medium, max }`                           |
+| Void    | `const doNothing = (): void => {  return  }`                     |
+| Never   | `const error = (message): never => { throw new Error(message) }` |
