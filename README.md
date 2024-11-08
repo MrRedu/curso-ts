@@ -76,3 +76,4 @@ tsc -w
 | Any     | `let anyImplicito;` or `let cualquierCosa: any = 654 ` |
 | Array   | `let frutas: string[] = ['Manzana', 'Pera', 'Melón']`  |
 | Tuples  | `let normalTupla: [string, number] = ['Texto', 125]`   |
+| Enum    | `enum AudioLevel { min, medium, max }`                 |
